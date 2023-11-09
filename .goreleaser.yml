@@ -68,3 +68,11 @@ scoop:
   license: MIT
   skip_upload: auto
   post_install: ["Write-Host 'Thanks for installing the Auth0 CLI'"]
+winget:
+  - name: auth0
+    publisher: Auth0
+    short_description: Build, manage and test your Auth0 integrations from the command line
+    license: MIT
+    publisher_url: https://auth0.github.io/auth0-cli
+    publisher_support_url: https://github.io/auth0/auth0-cli/issues/new
+    package_identifier: auth0.cli
