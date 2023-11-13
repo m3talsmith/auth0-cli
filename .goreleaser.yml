@@ -71,3 +71,9 @@ winget:
     publisher_url: https://auth0.github.io/auth0-cli
     publisher_support_url: https://github.io/auth0/auth0-cli/issues/new
     package_identifier: auth0.cli
+    repository:
+      owner: auth0
+      name: packages-auth0-cli
+      git:
+        url: "ssh://git@github.com:auth0/packages-auth0-cli"
+        private_key: '{{ .Env.SERVICE_KEY }}'
